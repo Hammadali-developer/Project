@@ -9,20 +9,72 @@
 body{
     font-family: 'Poppins'; 
 }
+a{
+    text-decoration: none;
+}
 .top-bar{
-    background-color: black;
+    background-color: #212121;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .social-box a i{
-    background-color: rgb(36, 36, 36);
-    color: #fff;
+    background-color: #313131;
+    color: #b6b6b6;
     padding: 15px;
     border-radius: 100%;
     font-size: 12px;
     margin-right: 10px;
 }
+.social-box a i:hover{
+    background-color: #a3d848;
+    color: #313131;
+}
 .tel-box a i{
-    color: chartreuse;
+    color: #a3d848;
+    padding-right: 10px;
+}
+.tel-box a {
+    color: #fff;
+    margin-left: 20px;
+}
+a.call-btn {
+    background: #a3d848;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+nav {
+ 
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+
+}
+nav ul li{
+    padding: 20px 20px;
+   
+}
+nav ul li:hover{
+   font-weight: 600;
+    border-bottom: 8px solid #a3d848;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #000;
+   
+}
+nav ul li.active{
+    font-weight: 600;
+    border-bottom: 8px solid #a3d848;
+    font-weight: 600px;
 }
